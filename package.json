@@ -74,7 +74,5 @@
     "install": "node-gyp-build",
     "lint": "eslint common/define-grammar.js",
     "test": "node --test bindings/node/*_test.js"
-    ,
-    "prebuild": "prebuildify -t 20.19.5"
   }
 }
